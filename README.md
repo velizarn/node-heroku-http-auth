@@ -7,7 +7,7 @@ A demo setup for Heroku app with HTTP Auth
 
 ### Heroku
 
-Click on above button "Deploy" and follow the instructions
+Click on "Deploy to Heroku" button above and follow the instructions
 
 #### Configure username/password
 
