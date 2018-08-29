@@ -7,11 +7,14 @@ A demo setup for Heroku app with HTTP Auth
 
 ### Heroku
 
-Click on "Deploy to Heroku" button above and follow the instructions
+Click on "Deploy to Heroku" button above and follow the instructions:
+* Select an app name (optionally)
+* Choose a region
+* Update config vars or leave default values
 
-#### Configure username/password
+#### Customize username/password after deployment
 
-Go to Heroku application then click on *Settings* and add new Config Vars *USER_NAME* and *USER_PASSW*.
+Go to Heroku application then click on *Settings* and then click on "*Reveal Config Vars*" button.
 
 ### Local environment
 
