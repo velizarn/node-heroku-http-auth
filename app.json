@@ -5,6 +5,7 @@
   "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
   "keywords": ["node", "express", "heroku", "http-auth"],
   "image": "heroku/nodejs",
+  "success_url": "/",
   "env": {
     "USER_NAME": {
       "value": "demo"
