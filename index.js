@@ -3,13 +3,10 @@ const auth = require('http-auth');
 
 require('dotenv').config();
 
-const _username = process.env.CUSTOM_USER_NAME || process.env.USER_NAME;
-const _password = process.env.CUSTOM_USER_PASSW || process.env.USER_PASSW;
-
 const basic = auth.basic({
         realm: "Private Area"
     }, (username, password, callback) => {
-        callback(username === _username && password === _password);
+        callback(username === process.env.USER_NAME && password === process.env.USER_PASSW);
     }
 );
 
