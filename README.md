@@ -17,7 +17,11 @@ Go to Heroku application then click on *Settings* and add new Config Vars *USER_
 
 1) Install Javascript dependencies (via yarn or npm)
 
-2) Update the username and password inside the .env file (optionally)
+2) Create .env file with *USER_NAME* and *USER_PASSW*, e.g.
+```
+USER_NAME=admin
+USER_PASSW=admin
+```
 
 3) Start the application
 
