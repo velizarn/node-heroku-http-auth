@@ -1,6 +1,8 @@
 # node-heroku-http-auth
 A demo setup for Heroku app with HTTP Auth
 
+<a href="https://snyk.io/test/github/velizarn/node-heroku-http-auth?targetFile=package.json"><img src="https://snyk.io/test/github/velizarn/node-heroku-http-auth/badge.svg?targetFile=package.json" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/velizarn/node-heroku-http-auth?targetFile=package.json" style="max-width:100%;"></a>
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Setup
