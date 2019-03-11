@@ -23,4 +23,5 @@ const PORT = process.env.PORT || 5000;
 express()
   .use(auth.connect(basic))
   .get('/', (req, res) => res.send(`Hello from express - ${req.user}!`))
+  .get('/loaderio-a065e4fa0ec1583754434f0954a1ca38/', (req, res) => res.send(`loaderio-a065e4fa0ec1583754434f0954a1ca38`))
   .listen(PORT, () => console.log(`Listening on ${ PORT }`));
