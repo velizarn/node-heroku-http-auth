@@ -19,7 +19,7 @@
     "http-auth": "^3.2.3"
   },
   "devDependencies": {
-    "request": "2.88.0",
+    "request": "2.88.2",
     "tape": "4.12.1"
   },
   "repository": {
